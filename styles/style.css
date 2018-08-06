@@ -1,0 +1,34 @@
+head { /* head doesn't work for applying styles, I really want to apply this style to the header in the body*/
+    font-size: 1px;
+    font-family: 'Abel', sans-serif;
+   
+}
+html {
+    background-color: #b3cde0;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+    background-color: #6497b1;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif; /* this comes from the google fonts output for embedding css */
+}
+
+h1, h2 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 10px;
+    font-family: 'Abel', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+img {
+    width: inherit;
+    border: 1px solid #b3cde0;
+    border-radius: 200px
+}
